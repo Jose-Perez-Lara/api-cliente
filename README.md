@@ -1,5 +1,5 @@
 # API de Usuarios
-# Recordad crear el .env y generar la APP_KEY con el comando:
+## Recordad crear el .env y generar la APP_KEY con el comando:
 `php artisan key:generate`
 ## Endpoints
 
