@@ -11,27 +11,26 @@ Devuelve todos los usuarios.
 
 **Ejemplo de Petición:**
 
-```http
-GET https://localhost:8000/usuarios
+`http`
+`GET https://localhost:8000/usuarios`
 POST /usuarios
 Crea un nuevo usuario.
 
-URL
+**URL**  
 https://localhost:8000/usuarios
 
-Ejemplo de Petición:
+**Ejemplo de Petición:**
 
-http
-Copiar
-POST https://localhost:8000/usuarios
+`http`
+`POST https://localhost:8000/usuarios`
 Body:
 
 json
 Copiar
 {
-  "nombre": "Juan Perez",
-  "email": "juan@example.com",
-  "edad": 30
+"nombre": "Juan Perez",
+"email": "juan@example.com",
+"edad": 30
 }
 GET /usuarios/{id}
 Devuelve un usuario por su ID.
@@ -59,9 +58,9 @@ Body:
 json
 Copiar
 {
-  "nombre": "Juan Pérez",
-  "email": "juan.perez@example.com",
-  "edad": 31
+"nombre": "Juan Pérez",
+"email": "juan.perez@example.com",
+"edad": 31
 }
 Ejemplo de Petición con PATCH:
 http
@@ -72,7 +71,7 @@ Body:
 json
 Copiar
 {
-  "edad": 14
+"edad": 14
 }
 DELETE /usuarios/{id}
 Borra un usuario por su ID.
@@ -85,4 +84,7 @@ Ejemplo de Petición:
 http
 Copiar
 DELETE https://localhost:8000/usuarios/1
+
+```
+
 ```
