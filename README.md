@@ -1,6 +1,9 @@
 # API de Usuarios
+
 ## Recordad crear el .env y generar la APP_KEY con el comando:
+
 `php artisan key:generate`
+
 ## Endpoints
 
 ### GET /usuarios
@@ -8,12 +11,12 @@
 Devuelve todos los usuarios.
 
 **URL**  
-`https://localhost:8000/usuarios`
+`https://localhost:8000/api/v1/usuarios`
 
 **Ejemplo de Petición:**
 
 ```http
-GET https://localhost:8000/usuarios
+GET https://localhost:8000/api/v1/usuarios
 ```
 
 ---
@@ -23,12 +26,12 @@ GET https://localhost:8000/usuarios
 Crea un nuevo usuario.
 
 **URL**  
-`https://localhost:8000/usuarios`
+`https://localhost:8000/api/v1/usuarios`
 
 **Ejemplo de Petición:**
 
 ```http
-POST https://localhost:8000/usuarios
+POST https://localhost:8000/api/v1/usuarios
 ```
 
 **Body:**
@@ -48,12 +51,12 @@ POST https://localhost:8000/usuarios
 Devuelve un usuario por su ID.
 
 **URL**  
-`https://localhost:8000/usuarios/{id}`
+`https://localhost:8000/api/v1/usuarios/{id}`
 
 **Ejemplo de Petición:**
 
 ```http
-GET https://localhost:8000/usuarios/1
+GET https://localhost:8000/api/v1/usuarios/1
 ```
 
 ---
@@ -63,12 +66,12 @@ GET https://localhost:8000/usuarios/1
 Actualiza la información de un usuario por su ID.
 
 **URL**  
-`https://localhost:8000/usuarios/{id}`
+`https://localhost:8000/api/v1/usuarios/{id}`
 
 #### Ejemplo de Petición con PUT:
 
 ```http
-PUT https://localhost:8000/usuarios/1
+PUT https://localhost:8000/api/v1/usuarios/1
 ```
 
 **Body:**
@@ -84,7 +87,7 @@ PUT https://localhost:8000/usuarios/1
 #### Ejemplo de Petición con PATCH:
 
 ```http
-PATCH https://localhost:8000/usuarios/1
+PATCH https://localhost:8000/api/v1/usuarios/1
 ```
 
 **Body:**
@@ -102,10 +105,10 @@ PATCH https://localhost:8000/usuarios/1
 Borra un usuario por su ID.
 
 **URL**  
-`https://localhost:8000/usuarios/{id}`
+`https://localhost:8000/api/v1/usuarios/{id}`
 
 **Ejemplo de Petición:**
 
 ```http
-DELETE https://localhost:8000/usuarios/1
+DELETE https://localhost:8000/api/v1/usuarios/1
 ```
